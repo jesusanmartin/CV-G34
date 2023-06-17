@@ -1,0 +1,66 @@
+body {
+  font-family: 'Roboto', sans-serif;
+
+
+}
+.navbar {
+background-color: #21232c;
+
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/Chalten\ fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+.colorheader {
+  color: #21232c;
+}
+ .mistrabajos { 
+  background-color: #253642;
+  color: #21232c;
+ }
+.fotolago  { 
+  background-color: #eceef1e3; }
+/* Mis trabajos */
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* .image-top{height: 50px;} */
+
+.card-body { 
+  height: 250px;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  
+  }
+
+}
+ 
+#Acerca-de-mi{
+  color: #21232c;
+} 
+
